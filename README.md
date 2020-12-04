@@ -1,3 +1,7 @@
+## Flutter Chat App UI
+A chat app built with flutter 
+
+
 ## 💻 Requirements
 
 - Any Operating System (ie. MacOS X, Linux, Windows)
