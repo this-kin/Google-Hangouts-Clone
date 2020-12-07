@@ -20,10 +20,6 @@ A chat app built with flutter
 <img src="ss/ss1.png" width="400">
 <img src="ss/ss2.png" width="400">
 <img src="ss/ss3.png" width="400">
- 
-
-## 😋 Dribble UI
-<img src="ss/realUI.jpeg" width="400">
 
 ## 🤓 Author(s)
 
