@@ -33,7 +33,7 @@ My little presentation of my chat application built with FLUTTER/DART a ready ma
 
 <!-- <img src="ss/mockup.png"/> -->
 
-<img src="ss/ss1.png" width="400">
+<img src="images/Screenshot_20210602-083439.png" width="400">
 <img src="ss/ss2.png" width="400">
 <img src="ss/ss2.png" width="400">
 <img src="ss/ss2.png" width="400">
