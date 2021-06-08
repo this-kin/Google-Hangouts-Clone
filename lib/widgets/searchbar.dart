@@ -1,23 +1,25 @@
-import 'package:chat_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
-class TextFieldd extends StatelessWidget {
+class SearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var height = MediaQuery.of(context).size.height;
+
     return Container(
-      margin: EdgeInsets.all(8),
-      height: 50,
-      decoration: BoxDecoration(
-          color: blackTopping, borderRadius: BorderRadius.circular(20)),
-      child: TextField(
-        decoration: InputDecoration(
-            contentPadding: EdgeInsets.all(5),
-            border: InputBorder.none,
-            prefixIcon: Icon(
-              Icons.search,
-              color: Colors.grey,
-            ),
-            labelText: "Search Friends"),
+      color: Colors.black12,
+      height: height * 0.07,
+      child: Center(
+        child: TextField(
+          decoration: InputDecoration(
+              prefixIcon: Icon(
+                Icons.search,
+                color: Colors.grey,
+                size: 28,
+              ),
+              hintText: "Search",
+              hintStyle: TextStyle(color: Colors.grey, fontSize: 18),
+              border: InputBorder.none),
+        ),
       ),
     );
   }

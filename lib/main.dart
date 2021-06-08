@@ -1,21 +1,17 @@
-import 'package:chat_app/views/home.dart';
+import 'package:chat_app/home.dart';
+import 'package:chat_app/utils/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-ThemeData isDark = ThemeData.dark();
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(MaterialApp(
-    home: MyApp(),
+    home: Home(),
     debugShowCheckedModeBanner: false,
-    theme: isDark,
+    //Set themedata darkMode and LightMode
+    theme: ThemeData(
+      canvasColor: bkgrdColor,
+    ),
   ));
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black12,
-      body: HomePage(),
-    );
-  }
 }
