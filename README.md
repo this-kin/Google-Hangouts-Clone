@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Chat App UI built with Flutter 
 
 My little presentation of my chat application built with FLUTTER/DART a ready made UI of a chat application check demo below...
@@ -19,10 +19,7 @@ My little presentation of my chat application built with FLUTTER/DART a ready ma
 - [x] Notification Page
 - [x] ......
 
-<br>
-=======
-## Flutter Chat App UI
-A chat app built with flutter 
+
 
 
 ## 💻 Requirements
@@ -32,17 +29,9 @@ A chat app built with flutter
 - A little knowledge of Dart and Flutter
 
 
-## ✨ Features
-- [x] ......
->>>>>>> 606fe94a22f2b48776f3a2f996267e8957eb6b8d
-
-
 ## 📸 ScreenShots
 
 <!-- <img src="ss/mockup.png"/> -->
-
-<<<<<<< HEAD
-
 
 <img src="ss/ss1.png" width="400">
 <img src="ss/ss2.png" width="400">
@@ -56,23 +45,10 @@ A chat app built with flutter
 <img src="ss/ss1.png" width="400">
 
 
-## 🤝 Welcome, Login & SignUp Page
-
-<href>github.com/FlutterBoyfriend</href>
-
-=======
-<img src="ss/ss1.png" width="400">
-<img src="ss/ss2.png" width="400">
-<img src="ss/ss3.png" width="400">
->>>>>>> 606fe94a22f2b48776f3a2f996267e8957eb6b8d
-
 ## 🤓 Author(s)
 
 **Flutter BoyFriend**
-<<<<<<< HEAD
 
 ## 🤝 Contribution (s)
 
 **Flutter BoyFriend**
-=======
->>>>>>> 606fe94a22f2b48776f3a2f996267e8957eb6b8d
