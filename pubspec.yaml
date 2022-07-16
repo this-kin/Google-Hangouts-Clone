@@ -66,12 +66,12 @@ flutter:
   fonts:
     - family: MADType
       fonts:
-        - asset: fonts/Abel-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+        - asset: assets/fonts/Abel-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

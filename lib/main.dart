@@ -1,6 +1,5 @@
 import 'package:chat_app/core/exports.dart';
-import 'package:chat_app/core/routes.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,11 +14,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(
+        statusBarIconBrightness: Brightness.dark,
+        statusBarBrightness: Brightness.light,
+        statusBarColor: Colors.transparent,
+      ),
+    );
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       builder: (_, __) {
         return MaterialApp(
-          title: 'Chat App',
+          title: 'XChat',
           theme: CustomTheme.lightTheme(),
           darkTheme: CustomTheme.darkTheme(),
           initialRoute: RoutGenerator.home,
