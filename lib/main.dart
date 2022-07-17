@@ -1,6 +1,5 @@
 import 'package:chat_app/core/exports.dart';
 
-
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
@@ -27,8 +26,8 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           title: 'XChat',
           theme: CustomTheme.lightTheme(),
-          darkTheme: CustomTheme.darkTheme(),
-          initialRoute: RoutGenerator.home,
+          themeMode: ThemeMode.light,
+          initialRoute: RoutGenerator.splash,
           onGenerateRoute: RoutGenerator.generateRoute,
         );
       },

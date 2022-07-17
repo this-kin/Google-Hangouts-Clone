@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
 // app color
-const Color bkgrdColor = Color(0xff242331);
-const Color darkBlueColor = Color(0xff2066FE);
-const Color lightBlueColor = Colors.blueAccent;
-const Color blackTopping = Color(0xff1D1C25);
-const Color blackText = Color(0xff575566);
-const Color txtColor = Color(0xFFFFFFFF);
-const Color selectedIcon = Color(0xFFFFFFFF);
-const Color unSelectedIcon = Colors.grey;
-const Color sendButtonColor = Color(0xFFE76F51);
+const Color backgroundColor = Color(0xFFF9F9F9);
+const Color primaryColor = Color(0xFF703EFE);
+const Color whiteColor = Color(0xFFFFFFFF);
+
+// text color
+const Color blacColor = Color(0xFF000000);
+const Color blackTextColor = Color(0xFF3D3D3D);
+const Color greyTextColor = Color(0xFF9B9B9B);
