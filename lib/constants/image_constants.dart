@@ -1,7 +1,5 @@
 class ConstanceData {
-  // images
+  // Base image and svg url
   static const String imageUrl = "assets/images/";
-
-  // svgs
   static const String svgUrl = "assets/svgs/";
 }

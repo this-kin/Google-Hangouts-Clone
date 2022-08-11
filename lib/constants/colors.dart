@@ -6,6 +6,7 @@ const Color primaryColor = Color(0xFF703EFE);
 const Color whiteColor = Color(0xFFFFFFFF);
 
 // text color
-const Color blacColor = Color(0xFF000000);
+const Color blacColor = Color(0xFF00080713);
 const Color blackTextColor = Color(0xFF3D3D3D);
-const Color greyTextColor = Color(0xFF9B9B9B);
+const Color darkGreyTextColor = Color(0xff6B6A71);
+const Color lightGreyTextColor = Color(0xFF9B9B9B);
