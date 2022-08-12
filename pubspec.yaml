@@ -30,6 +30,7 @@ dependencies:
   flutter_screenutil:
   iconsax: 
   flutter_svg: 
+  slide_to_act: 
 
 dev_dependencies:
   flutter_native_splash:

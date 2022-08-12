@@ -21,13 +21,14 @@ class MyApp extends StatelessWidget {
       ),
     );
     return ScreenUtilInit(
-      designSize: const Size(375, 812),
+      designSize: const Size(390, 844),
       builder: (_, __) {
         return MaterialApp(
           title: 'XChat',
           theme: CustomTheme.lightTheme(),
           themeMode: ThemeMode.light,
-          initialRoute: RoutGenerator.splash,
+          debugShowCheckedModeBanner: false,
+          initialRoute: RoutGenerator.onboarding,
           onGenerateRoute: RoutGenerator.generateRoute,
         );
       },
