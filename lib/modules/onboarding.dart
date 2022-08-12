@@ -11,6 +11,9 @@ class Onboarding extends StatefulWidget {
 }
 
 class _OnboardingState extends State<Onboarding> {
+//
+  final GlobalKey _swipeKey = GlobalKey();
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -58,6 +61,7 @@ class _OnboardingState extends State<Onboarding> {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 20.w),
                           child: SlideAction(
+                            key: _swipeKey,
                             elevation: 0,
                             height: 75.h,
                             innerColor: theme.backgroundColor,
