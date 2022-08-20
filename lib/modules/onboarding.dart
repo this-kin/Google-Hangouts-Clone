@@ -49,7 +49,7 @@ class _OnboardingState extends State<Onboarding> {
                         children: [
                           SizedBox(height: 45.h),
                           Text(
-                            "Enjoy the new exprience of\nchatting with new friends",
+                            "Enjoy the new exprience \nchatting with new friends",
                             textAlign: TextAlign.center,
                             style: CustomTheme.semiLargeText(context),
                           ),
@@ -84,7 +84,9 @@ class _OnboardingState extends State<Onboarding> {
                                 fontWeight: FontWeight.w500,
                               ),
                               onSubmit: () {
-                                // go to register
+                                // go to login
+                                Navigator.pushNamedAndRemoveUntil(context,
+                                    RouteGenerator.login, (route) => false);
                               },
                             ),
                           )

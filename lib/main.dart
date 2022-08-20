@@ -28,8 +28,8 @@ class MyApp extends StatelessWidget {
           theme: CustomTheme.lightTheme(),
           themeMode: ThemeMode.light,
           debugShowCheckedModeBanner: false,
-          initialRoute: RoutGenerator.onboarding,
-          onGenerateRoute: RoutGenerator.generateRoute,
+          initialRoute: RouteGenerator.onboarding,
+          onGenerateRoute: RouteGenerator.generateRoute,
         );
       },
     );
