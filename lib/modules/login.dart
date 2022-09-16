@@ -28,6 +28,10 @@ class _LoginState extends State<Login> {
           backgroundColor: theme.backgroundColor,
           iconTheme: IconThemeData(color: blackColor),
           leading: const CustomBackButton(),
+          title: Text(
+            "Login",
+            style: CustomTheme.semiLargeText(context),
+          ),
         ),
         backgroundColor: theme.backgroundColor,
         body: Container(

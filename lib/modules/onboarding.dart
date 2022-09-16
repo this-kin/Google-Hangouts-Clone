@@ -1,7 +1,4 @@
-import 'package:chat_app/constants/image_constants.dart';
 import 'package:chat_app/core/exports.dart';
-import 'package:chat_app/core/routes.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 
 class Onboarding extends StatefulWidget {
@@ -85,11 +82,22 @@ class _OnboardingState extends State<Onboarding> {
                                 fontWeight: FontWeight.w500,
                               ),
                               onSubmit: () {
-                                // go to login
-                                Navigator.pushNamedAndRemoveUntil(context,
-                                    RouteGenerator.login, (route) => false);
+                                // go to signup
+                                Navigator.pushNamed(
+                                    context, RouteGenerator.signup);
                               },
                             ),
+                          ),
+                          TextButton(
+                            child: Text(
+                              "Already have an account? Log in",
+                              style: CustomTheme.mediumText(context),
+                            ),
+                            onPressed: () {
+                              // goto login
+                              Navigator.pushNamed(
+                                  context, RouteGenerator.login);
+                            },
                           ),
                         ],
                       ),
