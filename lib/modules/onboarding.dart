@@ -1,5 +1,6 @@
 import 'package:chat_app/constants/image_constants.dart';
 import 'package:chat_app/core/exports.dart';
+import 'package:chat_app/core/routes.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 
@@ -89,7 +90,7 @@ class _OnboardingState extends State<Onboarding> {
                                     RouteGenerator.login, (route) => false);
                               },
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),

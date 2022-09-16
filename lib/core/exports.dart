@@ -6,3 +6,4 @@ export 'package:chat_app/core/theme.dart';
 export 'package:chat_app/core/routes.dart';
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 export 'package:chat_app/core/extension.dart';
+export 'package:chat_app/constants/string_constant.dart';
